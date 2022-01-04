@@ -22,7 +22,7 @@ class MedianFinder2 {
         if (b.isEmpty()){
             return 0;
         }
-        return ((a.size() + b.size()) & 1) == 1? (double) b.peek(): (b.peek() + a.peek()) / 2.0;
+        return a.size() != b.size()? (double) b.peek(): (b.peek() + a.peek()) / 2.0;
     }
 
 
