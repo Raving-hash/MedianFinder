@@ -23,12 +23,12 @@ class MedianFinder {
 
 
 
-    public static void main(String[] args) {
-        MedianFinder me = new MedianFinder();
-        me.addNum(1);
-        me.addNum(3);
-        me.findMedian();
-        me.addNum(2);
-        me.findMedian();
-    }
+//    public static void main(String[] args) {
+//        MedianFinder me = new MedianFinder();
+//        me.addNum(1);
+//        me.addNum(3);
+//        me.findMedian();
+//        me.addNum(2);
+//        me.findMedian();
+//    }
 }
